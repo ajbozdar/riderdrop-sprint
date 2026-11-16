@@ -76,3 +76,6 @@ right rows; that was tested separately (no surviving echoes, no parcel lost).
 - **Q3 mixes two causes** (never remitted and underpaid), so `q3b` splits them.
 - **On-time rate is about 50% in every zone.** The differences between zones (46% to 54%) are probably noise in synthetic data.
 - Extra queries (`q3b`, `q5_hidden`, `net_shortfall`) are diagnostics beyond the five required questions.
+
+## How to reproduce?
+- Delete `riderdrop.db` and `results/`, then run `python3 run_all.py`
